@@ -8,15 +8,16 @@
   height: 100%;
 }
 
-.navbar-inverse{
+.menu{
   background-color: #FFFFFF;
   border: none;
-  height: 60px;
+  height: 50px;
 }
 .header {
   background-color: #FFFFFF;
   border: none;
   height: 140px;
+
 }
 
 .logo-img {
@@ -31,3 +32,34 @@
 .navbar-btn{
   width: 50%;
 }
+.contenedor-principal{
+  margin-top: 15px;
+  background-color: #FFFFFF;
+  height: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+.contenedor1{
+  padding-left: 30px;
+  border: none;
+}
+.contenedor2{
+  border: none;
+}
+.icono{
+  width: 50px;
+}
+.imagen-contenedor1{
+  width: 200px;
+  margin: 5px 0 5px 0 !important;
+}
+.imagen-planeta{
+  width: 100%;
+  margin: 5px 0 5px 0 !important;
+}
+.row{
+  margin-top: 10px;
+}
+/*div{
+  border:1px solid black;
+}*/
