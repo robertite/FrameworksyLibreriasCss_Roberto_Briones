@@ -5,7 +5,7 @@ body{
 }
 .class-body{
   background-color: rgba(46, 38, 64, 0.6);
-
+    height: 100%;
 }
 .header-left{
 border-right: 1px solid #FFFFFF;
@@ -21,30 +21,40 @@ padding-right: 4px;
   border-radius: 5px;
   color: #FFFFFF;
   margin-bottom: 15px;
+  border-bottom: 1px solid #FFFFFF;
+
 }
 .contenedor-principal{
-  border-top: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  margin-top: 5px;
+  height: 100%;
 }
 .contenedor-left{
-  height: 100%;
+  margin:0 0 10px 5px !important;
   background-color: rgba(174, 177, 206, 0.6);
-  margin: 10px 5px 5px 0px !important;
   border-radius: 5px;
 
 }
 .contenedor-right{
   background-color: rgba(174, 147, 101, 0.6);
-  margin: 10px 10px 5px 10px !important;
-  height: 100%;
+  margin:0 0 10px 5px !important;
   border-radius: 5px;
 
 }
-.text-search{
-margin: 15px 0 0 15px;
+.subcontenedor-left{
+  margin: 15px 5px 15px 15px !important;
 }
-.btn-search{
-margin: 15px 0 0 5px !important;
+.menu{
+  background-color: #FFFFFF;
+  border-radius: 5px;
 }
+.historial{
+  color:#2ba6cb;
+  font-size: 1rem;
+}
+
+
+
 /*div{
   border: 1px solid black;
 }
