@@ -3,13 +3,26 @@ body{
   background-image: url(../img/fondo.jpg);
 }
 .barra-superior{
-  min-height: 4rem;
+  height: 120px;
+  background-color: rgba(48, 138, 207, 1);
+  border: 1px solid black;
 }
 .logo{
-  width: 150px;
-  margin-top: 0.5rem;
-  float: left;
+  width: 200px;
+  display: inline-block;
+  border-radius: 5px;
 }
-.banner{
-  height: 100px;
+.logo-absolute {
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
+div{
+  border:1px solid #FFFFF;
+}
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
 }
