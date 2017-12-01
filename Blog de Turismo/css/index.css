@@ -1,6 +1,10 @@
 
 body{
   background-image: url(../img/fondo.jpg);
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 .barra-superior{
   height: 120px;
@@ -8,21 +12,40 @@ body{
   border: 1px solid black;
 }
 .logo{
-  width: 200px;
+  width: 170px;
   display: inline-block;
   border-radius: 5px;
 }
 .logo-absolute {
     position: absolute;
-    top: 25px;
-    left: 90px;
+    top: 27px;
+    left: 115px;
 }
 div{
-  border:1px solid #FFFFF;
+  border:1px solid black;
+
 }
 #navlist li
 {
 display: inline;
 list-style-type: none;
 padding-right: 20px;
+
+}
+.contenedor{
+  height:1000px;
+  margin-top: 40px;
+
+}
+.contenedor1 img{
+  width: 40px;
+
+}
+.image1{
+  height: 100%;
+  width: 100%;
+
+}
+.contenedor2 div{
+  border-style: none !important;
 }
