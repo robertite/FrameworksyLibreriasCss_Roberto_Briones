@@ -1,25 +1,33 @@
 
-body{
+body {
   background-image: url(../img/fondo.jpg);
   color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+
 }
 .barra-superior{
   height: 120px;
   background-color: rgba(48, 138, 207, 1);
-  border: 1px solid black;
+  position: fixed;
+
+  width: 100%;
+
 }
 .logo{
   width: 170px;
-  display: inline-block;
   border-radius: 5px;
+
 }
 .logo-absolute {
     position: absolute;
     top: 27px;
     left: 115px;
+}
+.contenedor-principal{
+
+
 }
 div{
   border:1px solid black;
@@ -33,11 +41,11 @@ padding-right: 20px;
 
 }
 .contenedor{
-  height:1000px;
+  height:750px;
   margin-top: 40px;
 
 }
-.contenedor1 img{
+.subContenedor1 img{
   width: 40px;
 
 }
@@ -46,6 +54,31 @@ padding-right: 20px;
   width: 100%;
 
 }
-.contenedor2 div{
+.subContenedor2 div{
   border-style: none !important;
+}
+.contenedor2{
+  margin: 0px 10px 10px 10px !important;
+  height: 600px;
+
+}
+.image-contenedor2{
+  width: 150px;
+  height: 120px;
+  margin: 10px 5px 0 0 !important;
+  float: left;
+}
+.subContenedor2-1{
+margin: 0 0px 0 0px !important;
+background-color: #FFFFFF;
+border-radius: 5px;
+color: black;
+
+}
+.subContenedor2-2{
+margin: 0 0 0 0px !important;
+background-color: #FFFFFF;
+border-radius: 5px;
+color: black;
+
 }
