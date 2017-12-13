@@ -8,9 +8,9 @@ body {
 
 }
 .barra-superior{
-  height: 120px;
+  height: 160px;
   background-color: rgba(48, 138, 207, 1);
-  position: fixed;
+  /*position: fixed;*/
 
   width: 100%;
 
@@ -18,19 +18,31 @@ body {
 .logo{
   width: 170px;
   border-radius: 5px;
-
+  margin-top: 15px;
 }
-.logo-absolute {
-    position: absolute;
-    top: 27px;
-    left: 115px;
+@media screen and (max-width: 768px) {
+  .logo-absolute {
+  }
+  .logo{
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+  .icono-btn{
+    display:none;
+    width: 0px;
+  }
+  .boton-menu{
+    width: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo-absolute {
+      position:absolute;
+      top: 27px;
+  }
 }
 .contenedor-principal{
-
-
-}
-div{
-  border:1px solid black;
 
 }
 #navlist li
@@ -38,7 +50,7 @@ div{
 display: inline;
 list-style-type: none;
 padding-right: 20px;
-
+  background-attachment: fixed;
 }
 .contenedor{
   height:750px;
@@ -59,7 +71,7 @@ padding-right: 20px;
 }
 .contenedor2{
   margin: 0px 10px 10px 10px !important;
-  height: 600px;
+  height: 100%;
 
 }
 .image-contenedor2{
@@ -67,18 +79,31 @@ padding-right: 20px;
   height: 120px;
   margin: 10px 5px 0 0 !important;
   float: left;
+
 }
 .subContenedor2-1{
-margin: 0 0px 0 0px !important;
+margin: 0px 0px 0px 0px !important;
 background-color: #FFFFFF;
-border-radius: 5px;
 color: black;
 
 }
 .subContenedor2-2{
-margin: 0 0 0 0px !important;
+margin: 0 0 0 0 !important;
 background-color: #FFFFFF;
 border-radius: 5px;
 color: black;
+width: 100%;
+height: 100%;
 
+}
+.image-subContenedor2-2{
+  margin-top: 5px;
+}
+.perfil_autor{
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+.form-comentarios{
+  background-color: #0066ff;
+  color:#FFFFFF;
 }

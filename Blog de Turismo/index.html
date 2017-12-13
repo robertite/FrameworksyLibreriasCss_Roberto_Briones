@@ -15,22 +15,28 @@
 
 <div class="class-body">
     <section class=" barra-superior">
+      <div class="row">
+        <div class="col s4 col l2 offset-l1">
           <img src="img/logo-TurismoChile.jpg" alt="" class="logo logo-absolute">
-            <ul class="right hide-on-med-and-down " id="navlist">
-              <li><a class="waves-effect blue darken-4 btn ">Inicio <i class="material-icons right">home</i></a></li>
-              <li><a class="waves-effect blue darken-4 waves-light btn">Button <i class="material-icons right">cloud</i></a></li>
-              <li><a class="waves-effect blue darken-4 waves-light btn">Button <i class="material-icons right">cloud</i></a></li>
-              <li><a class="waves-effect blue darken-4 waves-light btn">Button <i class="material-icons right">cloud</i></a></li>
+        </div>
+        <div class="col s8 col l9 right">
+            <ul class="right col s10 offset-s2 col l12 " id="navlist">
+              <li><a class="waves-effect blue darken-4 btn boton-menu "><b class="icono-btn">INICIO</b> <i class="material-icons left">home</i></a></li>
+              <li><a class="waves-effect blue darken-4 waves-light btn boton-menu "><b class="icono-btn">ESTUVE EN</b><i class="material-icons left">edit_location</i></a></li>
+              <li><a class="waves-effect blue darken-4 waves-light btn boton-menu "><b class="icono-btn">MEJORES VIAJES</b> <i class="material-icons left">star</i></a></li>
+              <li><a class="waves-effect blue darken-4 waves-light btn boton-menu "><b class="icono-btn">RECOMENDACIONES</b> <i class="material-icons left">comment</i></a></li>
             </ul>
+        </div>
+        </div>
         <div class="row">
-            <div class="col l9 offset-l3 right">
+            <div class="col l9 offset-l3 ">
               <h5>Creando mi Camino</h5>
             </div>
         </div>
     </section>
     <div class="contenedor-principal">
       <div class="row contenedor">
-        <div class="col l1 subContenedor1">
+        <div class="col l1 subContenedor1 hide-on-small-only">
           <div class="row col l12">
             <img src="img/fb.png" alt="">
           </div>
@@ -41,16 +47,16 @@
             <img src="img/yt.png" alt="">
           </div>
         </div>
-        <div class="col l4 col m4 col s4 subCcontenedor2">
+        <div class="col l4 col m4 col s12 subCcontenedor2">
           <div class="row">
             <img src="img/Turismo1.jpg" alt="" class="image1">
             <img src="img/Turismo2.jpg" alt="" class="image1">
           </div>
         </div>
-        <div class="col l4 subContenedor3">
+        <div class="col l4 col m4 col s12 subContenedor3">
           <img src="img/Turismo3.jpg" alt="" class="image1">
         </div>
-        <div class="col l3 subContenedor4">
+        <div class="col l3 col m4 col s12 subContenedor4">
           <div class="row">
             <img src="img/Turismo4.jpg" alt="" class="image1">
           </div>
@@ -60,26 +66,61 @@
         </div>
       </div>
       <div class="row contenedor2">
-          <div class="col l9 subContenedor2-1">
-            <div class="row ">
-
-
-            <img src="img/Turismo4.jpg" alt="" class="image-contenedor2">
+          <div class="col l9 col m4 col s12 subContenedor2-1 ">
+            <div class="row">
+              <img src="img/Turismo4.jpg" alt="" class="image-contenedor2 col s12">
                 <h5>Acuario</h5>
+                <div class="chip">
+                  12 de diciembre de 2017
+                  <i class="material-icons">date_range</i>
+                </div>
+                <div class="chip">
+                  Union 1234 Recoleta, Santiago
+                  <i class="material-icons">edit_location</i>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
+
+            <div class="row form-comentarios">
+              <div class="col l12 #00b0ff light-blue accent-3">
+
+                  <h6>Deja tus Comentarios</h6>
+
+                <div class="input-field col l6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input type="text" id="icon_prefix2" class="materialize-input"></input>
+                  <label for="icon_prefix2">Nombre</label>
+                </div>
+                <div class="input-field col l6">
+                  <i class="material-icons prefix">email</i>
+                  <input type="text" id="icon_prefix2" class="materialize-input"></input>
+                  <label for="icon_prefix2">Correo Electronico</label>
+                </div>
+                <div class="input-field col l12">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Comentarios</label>
+                </div>
+                <div class="row">
+                  <button class="btn waves-effect right #e1f5fe light-blue lighten-5" type="submit" name="action"><label style="color:#0091ea">Enviar</label>
+                  </button>
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="col l3 ">
-            <div class="row subContenedor2-2">
+          <div class="col l3 subContenedor2-2">
 
-          <img src="img/perfil.jpg" class="circle responsive-img" >
+            <div class="row col l12 center">
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="img/perfil.jpg" class="circle image-subContenedor2-2" >
+                <h5>Perfil del Autor</h5>
+                <p class="perfil_autor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-          </div>
+            </div>
         </div>
       </div>
     </div>
